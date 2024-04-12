@@ -40,6 +40,14 @@ User-Friendly Interface: Utilizes a graphical user interface (GUI) to guide user
 ## Prerequisites
 Before using this tool, ensure you have the following:
 - NinjaRMM API Credentials: Obtain API credentials (client ID and client secret) with "monitoring" scope from your NinjaRMM account to authenticate API requests.
+- NinjaRMM custom fields created: This script uses 3 custom fields to pull information...
+    - av_present
+        - Value should be "Yes" if your AV/EDR product is present on the device or "No" if it is not present.
+    - bitlocker
+        - Value should be "Yes" if the Windows device is encrypted with BitLocker or "No" if it is not present.
+    - filevault
+        - Value should be "Yes" if the MacOS device is encrypted with FileVault or "No" if it is not present.
+    - It is recommended to use automated scripts to fill in this information. Unfortunately NinjaOne stopped the ability to pull BitLocker information via the API device details.
 - PowerShell Environment: This script requires a PowerShell environment to execute. It has been tested on Windows PowerShell v5.1.
 
 ## Usage
