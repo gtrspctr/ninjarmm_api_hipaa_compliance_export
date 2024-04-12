@@ -1,0 +1,6 @@
+DeviceName,DeviceType,Activated,Deactivated,AssetTag,Model,SerialNumber,PhysicalLocation,UserAssigned,LastIPAddress,EPHI,EndPointProtection,Encryption,RiskRating,Notes
+WorkstationA,Desktop Computer,Yes,No,XYZ-WorkstationA,Lenovo ThinkStation,ABC1234,Corporate Office,XYZ\Peter.Homer,10.1.1.100,Yes,Yes,Yes,,
+WorkstationB,Laptop,Yes,No,XYZ-WorkstationB,Lenovo ThinkPad,ABC6789,Remote,AzureAD\Harry.Voldemort,192.168.1.250,Yes,Yes,Yes,,
+WorkstationC,Desktop Computer,No,Yes,XYZ-WorkstationC,Lenovo ThinkStation,ABC2345,Warehouse,XYZ\Frodo.Gandalf,10.1.10.,Yes,Yes,Yes,,
+XYZ-DC,Server,Yes,No,XYZ-DC,Lenovo ThinkSystem,ZYX9876,Corporate Office,XYZ\xyzdomainadmin,10.1.1.50,Yes,Yes,No,,VM
+XYZ-HOST,Server,Yes,No,XYZ-HOST,Lenovo ThinkStation,ABC1234,Corporate Office,XYZ-HOST\xyzhypervisor,10.1.1.50,Yes,Yes,Yes,,Hypervisor
