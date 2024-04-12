@@ -34,6 +34,7 @@ Creates a .csv file with the following information:
         - *filevault*
 - Risk rating *(RiskRating)*
 - Custom notes *(Notes)*
+
 Automated Data Comparison: Compare the latest device data with previous exports to identify any changes since the last export.
 User-Friendly Interface: Utilizes a graphical user interface (GUI) to guide users through the export process, making it accessible to users with varying levels of technical expertise.
 
