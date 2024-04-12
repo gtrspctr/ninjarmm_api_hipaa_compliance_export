@@ -1,0 +1,11 @@
+{
+    "server_addr": "10.1.1.2",
+    "server_port": "9999",
+    "server_drive": "S:",
+    "server_data_dir": "Device_Compliance_Data",
+    "orgs": [
+        "Company A",
+        "Company B",
+        "Company C"
+    ]
+}
