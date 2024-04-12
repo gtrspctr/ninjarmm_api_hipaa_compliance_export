@@ -56,21 +56,21 @@ Before using this tool, ensure you have the following:
 4. Edit settings.json and change the value for "server_drive" and "server_data_dir" to the directory you created in step 3.
     - Example 1:
         - {
-            - "server_drive": "S:",
-            - "server_data_dir": "Device_Compliance_Data",
-        - }
+            "server_drive": "S:",
+            "server_data_dir": "Device_Compliance_Data",
+        }
     - Example 2:
         - {
-            - "server_drive": "C:",
-            - "server_data_dir": "LocalFiles",
-        - }
+            "server_drive": "C:",
+            "server_data_dir": "LocalFiles",
+        }
 5. Edit settings.json and add any organization names you need to export in your NinjaRMM instance:
     - Example:
         - "orgs": [
-            - "Company A",
-            - "Company B",
-            - "Company C"
-        - ]
+            "Company A",
+            "Company B",
+            "Company C"
+        ]
 6. Run 'HIPAA_Compliance_Exporter.ps1'
     - Using the Powershell console, navigate to the .ps1 file and run:
         - cd "C:\Path\To\HIPAA_Compliance_Exporter.ps1"
